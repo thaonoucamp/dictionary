@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    dictionary();
+    function dictionary() {
+        let num = prompt("Nhap tu can tra !");
+        let arr = ['apple','honey','money'];
+        let arr1 = ['iphone','em yeu','oxy'];
+        for (let i = 0; i < arr.length; i++) {
+            for (let j = 0; j < arr1.length ; j++) {
+                if(num == arr[i]) {
+                    arr[i] = arr1[i];
+                    alert(arr1[i]);
+                    break;
+                }
+            }
+        }
+    }
+</script>
+</body>
+</html>
